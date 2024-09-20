@@ -1,0 +1,113 @@
+\documentclass{article}
+\usepackage[margin=1.5in]{geometry} % Please keep the margins at 1.5 so that there is space for grader comments.
+\usepackage{amsmath,amsthm,amssymb,hyperref}
+\usepackage{amsmath,amscd}
+\usepackage[all]{xy}
+\usepackage{tikz-cd}
+\usepackage[all]{xy}
+\usepackage{mathrsfs}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsfonts}      
+\usepackage{nicefrac}
+\usepackage{extarrows}
+\usepackage{blindtext}
+\usepackage[english]{babel}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{subfigure}
+\usepackage{subcaption}
+\usepackage{color}
+\usepackage{enumerate}
+\usepackage{mathtools}
+ \usepackage{empheq}
+ 
+ \usepackage[fontset=ubuntu]{ctex}
+ 
+\newcommand{\R}{\mathbf{R}}
+\newcommand{\Z}{\mathbf{Z}}
+\newcommand{\N}{\mathbf{N}}
+\newcommand{\Q}{\mathbf{Q}}
+
+\newenvironment{theorem}[2][Theorem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{lemma}[2][Lemma]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{claim}[2][Claim]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{proposition}[2][Proposition]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{corollary}[2][Corollary]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\newenvironment{solution}{\begin{proof}[Solution]}{\end{proof}}
+
+\begin{document}
+
+\large
+
+\begin{center}
+{\Large 作业\quad 一 }
+\end{center}
+
+\vspace{3pt}
+
+\begin{enumerate}
+    \item 写出命题$p\Longleftrightarrow 
+ q$的真值表，其中$p,q$为任意命题. 
+ \item 利用真值表，证明\textit{德摩根律}\[\left\{\begin{array}{c}
+          \neg (p\lor q)\quad \Longleftrightarrow \quad \neg p\land \neg q \\
+          \neg(p\land q)\quad \Longleftrightarrow \quad \neg p\lor \neg q
+    \end{array}\right.\]
+    \item 用逻辑符号（$\forall,\,\exists$ 等）严格写出下面命题，并写出其否定形式.
+    \begin{enumerate}
+        \item 非空数集$X$的最小值是$m$.
+        \item $f$是区间$(a,b)$上的单调增函数.
+        \item $f$是区间$(a,b)$上的单调函数.
+        \item $A-B:=\{a-b\mid a\in A,\,b\in B\}\neq \emptyset$
+    \end{enumerate}
+    \item 若$T:\mathbb{R}\to\mathbb{R}$是线性映射，证明$T$是单射当且仅当：若$T(x)=0$，则$x=0$. 
+    \item 若$T:\mathbb{R}\to\mathbb{R}$是线性应映射，证明$T$是单射当且仅当$T$是满射. 
+     \item 对映射$T$及其逆映射$T^{-1}$，证明有$T\circ T^{-1}=I|_{R(T)};\,\, T^{-1}\circ T=I|_{D(T)}$，其中$I$代表恒等映射，即满足$I(x)=x$的映射. 
+     \item  \textit{迪利克雷（Dirichlet）函数}定义为: $D(x):=\left\{\begin{array}{c}
+     1\qquad x\in \mathbb{Q}  \\
+     0\qquad x\notin \mathbb{Q}
+\end{array}\right.$、\quad  迪利克雷函数是否为周期函数？如果是，其最小正周期是否存在？
+\item 利用欧拉公式证明三角函数的加法公式.
+\item 验证$\cosh^{2}{x}-\sinh^{2}{x}=1$ 和$\cosh{(x\pm y)}=\cosh{x}\cosh{y}\pm \sinh{x}\sinh{y}$
+\item 写出\textit{尖点曲线}$y^{2}=x^{3}$的一个参数方程描述.
+\item 不用导数的定义，求三次曲线$y=x^{3}+2x+3$在$x=1$处的切线方程.
+\item 将下列隐函数方程曲线转化为参数方程曲线，并指出参数的变化范围.
+\[a)\quad 4x^{2}-4x+y^{2}+2y=0;\qquad b)\quad e^{y}+y^{3}+2x=1\]
+\item 将下列曲线方程转化为极坐标方程，并指出$\theta$的变化范围.
+\[a)\quad x^{2}-y^{2}=1;\qquad b)\quad (x^{2}+y^{2})^{\frac{3}{2}}=x^{2}-y^{2}\]
+\item 绘制下列极坐标方程表示的曲线的图形.
+\[a)\quad r=a\theta\,(a>0);\qquad b)\quad r=\tan\theta\sec\theta\]
+\item 设函数$f(x)$在$\mathbb{R}$上有定义，把满足$f(x^{*})=x^{*}$ 的点$x^{*}$称为$f(x)$ 的\textit{不动点}. 证明：若$f(f(x))$有唯一不动点，则$f(x)$ 也有唯一不动点.
+\end{enumerate}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+   
+\end{document}
