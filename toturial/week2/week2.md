@@ -43,9 +43,9 @@ HuNianlan
 ## Contents
 
 ### Extension
-- 数与函数
+<!-- - 数与函数
   - Dedekind cuts
-  - cardinality and Continuum hypothesis (Naive Set Theory)
+  - cardinality and Continuum hypothesis (Naive Set Theory) -->
 - 逻辑符号与命题逻辑
   - Fault Tree Analysis(SE)
   - 专家系统(AI)
@@ -384,7 +384,7 @@ $$\left\{\begin{array}{c}
 
 ### 交流讨论以及资料获取
 - zlib
-- mathexchange/stackexchange/wiki
+- stackexchange/wiki
 - bilibili(online classes)
   - **b站大学yyds！！！**
 
@@ -400,10 +400,10 @@ $$\left\{\begin{array}{c}
 ---
 
 
-## Extension
+<!-- ## Extension
 ### 数与函数
   - Dedekind cuts
-  - Cardinality and Continuum hypothesis (Naive Set Theory)
+  - Cardinality and Continuum hypothesis (Naive Set Theory) -->
 
 ---
 ## Extension
